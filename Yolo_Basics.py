@@ -7,7 +7,7 @@ import cv2 # Import OpenCV for image processing
 ######################################
 ### YOLOv8 Model Different Weights ###
 ######################################
-model = YOLO('../YOLO_Weights/yolov8n.pt')  # Load the yolov8n means nano model weights for faster inference
+model = YOLO(r'C:\Users\usama\OneDrive\Desktop\Compurt_Vision_Proj\01_Yolo_Basics\Object_Detection_Through_Static_Images\yolov8n.pt')  # Load the yolov8n means nano model weights for faster inference
 # model = YOLO('../YOLO_Weights/yolov8l.pt')  # Load the yolov8l means large model weights for better accuracy
 # model = YOLO('../YOLO_Weights/yolov8x.pt')  # Load the yolov8x means extra large model weights for maximum accuracy
 # model = YOLO('../YOLO_Weights/yolov8m.pt')  # Load the yolov8m means medium model weights for balanced performance
